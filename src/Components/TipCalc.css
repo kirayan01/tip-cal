@@ -1,0 +1,93 @@
+.display{
+  display: flex;
+  border-radius: 10px;
+  justify-content: space-between;
+}
+.holder{
+  background-color: hsl(183, 100%, 15%);
+  border-radius: 5px;
+  min-height: 300px;
+  min-width: 50%;
+  margin: 1rem;
+  padding-bottom: 1rem;
+}
+.leftInput {
+  margin: 1em;
+  display: flex;
+  flex-direction: column;
+  justify-self: center;
+  justify-items: center;
+
+}
+.label {
+  margin-left: 1rem;
+}
+.leftInput input {
+  max-width: 90%;
+  direction: rtl;
+  background-color: hsl(185, 41%, 84%);
+  height: 25px;
+  border: none;
+  padding: 0.5rem;
+  border-radius: 5px;
+}
+.leftInput input:focus {
+
+  border: 3px solid hsl(183, 100%, 15%);
+  padding: 0.5rem;
+  border-radius: 5px;
+}
+
+.leftBtn {
+  display: flex;
+  flex-wrap: wrap;
+  flex-basis: 33.333%;
+  margin-left: 0.5rem;
+}
+.custom{
+  background-color: hsl(183, 100%, 15%);
+  width: 100%;
+  color: white;
+  border: none;
+
+}
+.custom::placeholder{
+  color: white;
+}
+.active{
+  background-color: red;
+}
+.holder{
+    display: flex;
+    flex-direction: column;
+}
+.holder button{
+
+    align-self: center;
+}
+.dollarDisplay{
+    color: #23c3ae;
+}
+
+.tipAmount{
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+.tipAmount h3, p{
+    margin: 0;
+    padding: 0;
+}
+form {
+  margin-top: 2rem;
+}
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+    outline: none;
+}
